@@ -1,0 +1,100 @@
+[
+  {
+    "name": "Health ministry system",
+    "superclasses": "",
+    "subclasses": "",
+    "type": 1,
+    "responsibilities": [
+      "Save medical reports",
+      "",
+      ""
+    ],
+    "collaborators": [
+      "Medical reports"
+    ]
+  },
+  {
+    "name": "Medical report",
+    "superclasses": "",
+    "subclasses": "",
+    "type": 1,
+    "responsibilities": [
+      "Give reports by geography",
+      "Give ill person records",
+      "Give records to colleges",
+      "Give needed records to Drugstores",
+      "Give needed records to trusted doctors"
+    ],
+    "collaborators": [
+      "Records"
+    ]
+  },
+  {
+    "name": "Sick person",
+    "superclasses": "",
+    "subclasses": "",
+    "type": 1,
+    "responsibilities": [
+      "Show records",
+      "Show ill type",
+      "Show indicated drugs to drugstore",
+      ""
+    ],
+    "collaborators": [
+      ""
+    ]
+  },
+  {
+    "name": "Trusted doctor",
+    "superclasses": "",
+    "subclasses": "",
+    "type": 1,
+    "responsibilities": [
+      "Give his sick person records",
+      ""
+    ],
+    "collaborators": [
+      "Doctors"
+    ]
+  },
+  {
+    "name": "Doctors",
+    "superclasses": "",
+    "subclasses": "",
+    "type": 1,
+    "responsibilities": [
+      ""
+    ],
+    "collaborators": [
+      "Collections"
+    ]
+  },
+  {
+    "name": "Drugstors",
+    "superclasses": "",
+    "subclasses": "",
+    "type": 1,
+    "responsibilities": [
+      "Has access to sick person indicated drugs"
+    ],
+    "collaborators": [
+      "sick person"
+    ]
+  },
+  {
+    "name": "Records",
+    "superclasses": "",
+    "subclasses": "",
+    "type": 1,
+    "responsibilities": [
+      "Save medical records"
+    ],
+    "collaborators": [
+      "Trusted doctors",
+      "Drugstore",
+      "Sick person",
+      "Medical reports",
+      ""
+    ]
+  }
+]
